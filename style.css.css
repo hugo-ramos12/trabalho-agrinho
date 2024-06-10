@@ -1,0 +1,93 @@
+body {
+  
+  font-family: Arial, sans-serif;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+header {
+    
+background-color: #4CAF50;
+  
+  color: white;
+   
+ text-align: center;
+  
+  padding: 20px 0;
+
+}
+
+
+
+main {
+   
+ display: flex;
+    
+justify-content: space-between;
+  
+  padding: 20px;
+
+}
+
+
+
+.produtos {
+   
+ flex-grow: 2;
+   
+ margin-right: 20px;
+}
+
+
+
+.produtos article {
+  
+  margin-bottom: 20px;
+
+}
+
+
+
+.produtos article img {
+  
+  width: 100%;
+
+}
+
+
+
+.carrinho {
+  
+  flex-basis: 30%;
+  
+  background-color: #f2f2f2;
+ 
+   padding: 20px;
+
+}
+
+
+
+.carrinho h2 {
+  
+  margin-top: 0;
+
+}
+
+
+
+footer {
+   
+ background-color: #333;
+   
+ color: white;
+   
+ text-align: center;
+   
+ padding: 10px 0;
+
+}
